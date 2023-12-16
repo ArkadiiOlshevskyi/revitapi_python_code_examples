@@ -1,4 +1,4 @@
-# REVITAPI CODE EXMAPLES
+# REVITAPI PYTHON CODE EXAMPLES
 
 This repo contains tested code examples for geometry creation in Revit2024 (RevitAPI)
 Because in general there are not much python examples in web about working with.
