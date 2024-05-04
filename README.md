@@ -1,48 +1,29 @@
-# REVITAPI CODE EXMAPLES
+# REVITAPI PYTHON CODE EXAMPLES
 
 This repo contains tested code examples for geometry creation in Revit2024 (RevitAPI)
 Because in general there are not much python examples in web about working with.
-Also there allot of differend information you have to pass trough before
+Also, there are a lot of different information you have to pass through before
 to understand RevitAPI conception.
-So the idea was to collect all bestr practices in one place, test them, and use
-it current tastk.
+So the idea was to collect all best samples and approaches in one place, 
+test them, and use them for current task or pipeline.
 
-Code examples splited in small snippets, so you can easy findout what is exactly you need and use it.(Also fill free to contribute)
+Code examples split in small snippets(functions), 
+so you can easy find-out what is exactly you need and use it in your current case.
+Also fill free to comment and contribute.
 
 
 ## Content:
 
-Template:
-- Python template for working with Revit API
+Automation_pyRevit_Launches:
+- Python scripts that listen folder for different files and launch revit automation script
 
-Geometry Creaation:
-- Creation Levels
-- Creating Floors(slab)
-- Creating Walls
-- Creating Windows
-- Creating New Family Instace
-- Creating Doors
+data:
+- JSON file sample that you can use for testing
+- IFC file for test
+- Revit file as an output
 
-
-CRUD operations:
-- Move Selected Object
-- Rotate Selected Object
-
-
-Geometry decomposition:
-- Accesing geometry(solid) like faces, edges, point
-- Accesing Location Point (family)
-- Iterating over JSON to create building
-
-
-
-
-
-## Instalation
-~ add text here
-
-
-
-## Extra knowlege
-~ add text here
-
+scr:
+- json processor (to extract data from json)
+- revit_helpers (to save dwg, ifc, etc.)
+- revit_ifc_processor (to work with imported ifc geometry.)
+- revit utilities (to extract data from json)
